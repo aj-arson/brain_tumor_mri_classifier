@@ -1,6 +1,5 @@
 # data - https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 
-
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
