@@ -11,7 +11,7 @@ default_img_path = 'default_img.png'
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model(model_path)
+    return tf.keras.models.load_model(model_path, compile=False)
 
 target_size = (384, 384)
 model = load_model()
