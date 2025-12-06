@@ -13,11 +13,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
+    - name: Deploying to streamlit
+    # This step uses a marketplace action for Streamlit-specific testing
+    uses: streamlit/streamlit-app-action@v0.0.3
     with:
-      - name: Deploying to streamlit
-        # This step uses a marketplace action for Streamlit-specific testing
-        uses: streamlit/streamlit-app-action@v0.0.3
-
         docker_file : Dockerfile
         docker_file_directory : .
         process_type : web
