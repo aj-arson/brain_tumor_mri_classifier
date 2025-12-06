@@ -3,7 +3,7 @@ name: Streamlit CI/CD
 on:
   push:
     branches:
-      - [main, app_dev]
+      [main, app_dev]
 
 jobs:
   build:
