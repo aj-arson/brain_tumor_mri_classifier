@@ -19,7 +19,4 @@ jobs:
         with:
           docker_file : Dockerfile
           docker_file_directory : .
-          process_type : web
-          app-file: app.py # Replace with the name of your main Streamlit file
-          # Optional: Add other commands, e.g., 'pytest' if you have unit tests
-          # command: pytest 
+          process_type : web 
